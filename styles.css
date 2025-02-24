@@ -1,0 +1,59 @@
+ style
+[data-widget=forms_de][data-id=2] {
+    background-color #ffffff;  Белый фон 
+    border-radius 10px;  Скругление углов 
+    padding 20px;  Внутренний отступ 
+    box-shadow 0 4px 12px rgba(0, 0, 0, 0.12);  Улучшенная тень 
+    max-width 480px;  Чуть уже 
+    margin 25px auto;  Центрирование 
+}
+
+[data-widget=forms_de][data-id=2] form {
+    display flex;
+    flex-direction column;
+}
+
+[data-widget=forms_de][data-id=2] label {
+    font-weight 600;
+    margin-bottom 5px;
+    color #333;
+}
+
+[data-widget=forms_de][data-id=2] input,
+[data-widget=forms_de][data-id=2] select,
+[data-widget=forms_de][data-id=2] textarea {
+    width 100%;
+    padding 10px;
+    margin-bottom 12px;
+    border 1px solid #bbb;
+    border-radius 6px;  Меньше скругление 
+    font-size 15px;
+    transition all 0.2s ease-in-out;
+}
+
+[data-widget=forms_de][data-id=2] inputfocus,
+[data-widget=forms_de][data-id=2] selectfocus,
+[data-widget=forms_de][data-id=2] textareafocus {
+    border-color #282828;
+    box-shadow 0 0 4px rgba(40, 40, 40, 0.3);
+    outline none;
+}
+
+[data-widget=forms_de][data-id=2] button {
+    background-color #282828;
+    color #fff;
+    padding 10px;
+    border none;
+    border-radius 6px;
+    cursor pointer;
+    font-size 16px;
+    font-weight bold;
+    transition background 0.3s ease, transform 0.2s ease;
+}
+
+[data-widget=forms_de][data-id=2] buttonhover {
+    background-color #3a3a3a;
+    transform scale(1.02);
+}
+
+style
